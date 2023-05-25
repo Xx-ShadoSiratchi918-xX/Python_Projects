@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+p, ol, ul {
+    font-size: 105%;
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 30px;
+}
+
+.column.right {
+  float: left;
+  padding-top: 10px;
+}
+
+.row .column.left hr {
+    box-shadow: 0px 2px 7px 1px white;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+
+.row .column.right hr {
+    box-shadow: 0px 2px 7px 1px orange;
+    border: 2px #FF914D solid;
+    border-radius: 50px;
+
+}
+
+.row .column.left h1 {
+    text-shadow: 5px 5px 5px black;
+
+}
+
+.row .column.left h2 {
+    text-shadow: 5px 5px 5px black;
+
+}
+
+
+.row .column.left img {
+    box-shadow: 0px 3px 7px 2px lightgrey;
+    width:65%;
+    border: 7px solid lightgrey;
+    border-radius: 10px
+}
+
+.left {
+  width: 30%;
+  background-color: #FF914D;
+  border-radius: 10px;
+}
+
+.right {
+  width: 65%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 750px) {
+    .left, .right, .row{
+        width: 100%;
+        display: block;
+    }
+}
+
+.btn_form {
+    transition-duration: 0.5s;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: orange;
+    width: 15%;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px black;
+    border: 3px solid orange;
+    border-radius: 12px
+}
+
+.btn_form:hover {
+    background-color: orange;
+    color: white;
+}

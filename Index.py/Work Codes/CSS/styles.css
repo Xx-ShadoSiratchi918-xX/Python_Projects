@@ -1,0 +1,30 @@
+body {
+    background-color:#E5A474;
+}
+
+h1 {
+    font-family: Arial;
+    color: #9A2A2A;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial;
+    color: #1E90FF;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+header {
+    background-color: #D35400;
+    text-align: center;
+}
+
+footer {
+    background-color: #F39C12;
+    text-align: center;
+}

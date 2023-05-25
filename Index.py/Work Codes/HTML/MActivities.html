@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+        <title>CV - Activitat Matematica</title>
+        <link rel="stylesheet" href="MAstyle.css">
+        <script src="Mscript.js"></script>
+    </head>
+    <body onload="validar_numeros_generats()">
+
+    <header>
+        <div>
+            <button onclick="document.location='CVitae.html'"
+                            class="btn_style"> Curriculum Vitae</button>
+            <button onclick="document.location='CForm.html'"
+                class="btn_style"> Contacte</button>
+        </div>
+    </header>
+
+    <br>
+
+    <div class="forum">
+        <form name="MActivities" onsubmit="return validar_formulari_exercicis()">
+            <h1>Activitats Matemàtiques</h1>
+
+            <hr>
+
+                <input type="number" id="num1" name="num1" class="text-box1">
+            <span> + </span>
+                <input type="number" id="num2" name="num2" class="text-box2">
+            <span> = </span>
+                <input type="number" id="result" name="result" placeholder="Resultat..." required>
+
+            <br>
+                <input type="submit" value="Calcular">
+        </form>
+    </div>
+    </body>
+</html>

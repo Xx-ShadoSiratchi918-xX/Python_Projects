@@ -1,0 +1,117 @@
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 2px solid orange;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 5px black;
+
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 70px;
+  display: inline-block;
+  border: 2px solid orange;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 5px black;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 2px solid orange;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 5px black;
+}
+
+textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 70px;
+  resize: none;
+  display: inline-block;
+  border: 2px solid orange;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 5px black;
+}
+
+input[type=submit] {
+  transition-duration: 0.5s;
+  font-weight: bold;
+  width: 100%;
+  background-color: #FF900D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px orange;
+}
+
+input[type=submit]:hover {
+  background-color: #FFFFFF;
+  color: orange;
+}
+
+.forum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 2px 7px 2px orange;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 40%;
+
+}
+
+form h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: orange;
+}
+
+form hr {
+    box-shadow: 0px 2px 7px 0px orange;
+    align: center;
+    margin-bottom: 40px;
+    border: 3px solid #FF900D;
+    border-radius: 50px;
+}
+
+.btn_CV {
+    transition-duration: 0.5s;
+    font-weight: bold;
+    background-color: #FF900D;
+    color: white;
+    width: 15%;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px black;
+    border: 3px solid white;
+    border-radius: 12px
+}
+
+.btn_CV:hover {
+    background-color: #FFFFFF;
+    color: orange;
+}

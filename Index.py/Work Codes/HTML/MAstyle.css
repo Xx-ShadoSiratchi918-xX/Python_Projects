@@ -1,0 +1,121 @@
+
+input[type=number], select {
+  width: 22%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 70px;
+  font-size: 18px;
+  font-style: italic;
+  border: 2px solid lightblue;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 5px darkblue;
+}
+
+
+input[type=submit] {
+  transition-duration: 0.5s;
+  font-weight: bold;
+  width: 15%;
+  background-color: lightblue;
+  color: white;
+  font-size: 17px;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px darkblue;
+}
+
+input[type=submit]:hover {
+  background-color: #FFFFFF;
+  color: darkblue;
+}
+
+.forum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 2px 7px 2px darkblue;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+form h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: darkblue;
+}
+
+form hr {
+    box-shadow: 0px 2px 7px 0px darkblue;
+    align: center;
+    margin-bottom: 40px;
+    border: 3px solid lightblue;
+    border-radius: 50px;
+}
+
+.btn_style {
+    transition-duration: 0.5s;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+    width: 12%;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px black;
+    border: 3px solid darkblue;
+    border-radius: 12px;
+}
+
+.btn_style:hover {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+form span {
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+form .text-box1 {
+    background-color: lightblue;
+    box-shadow: 1px 2px 5px darkblue;
+    text-align: center;
+    border-radius: 12;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    width:none;
+    border: none;
+    box-sizing: none;
+
+}
+
+form .text-box2 {
+    background-color: lightblue;
+    box-shadow: 1px 2px 5px darkblue;
+    text-align: center;
+    border-radius: 12;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    width:none;
+    border: none;
+    box-sizing: none;
+}
