@@ -1,0 +1,22 @@
+
+.contenedor_1{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+                
+.texto-encima_1{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centrado_1{
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+}
+    
